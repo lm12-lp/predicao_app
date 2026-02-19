@@ -1,0 +1,48 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Cache e builds
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Configurações locais
+*.env
+*.ini
+
+# Jupyter (caso use)
+.ipynb_checkpoints/
+
+# ======================================
+# Streamlit
+# ======================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/cache/
+.streamlit/state.json
+
+# ======================================
+# IDEs / Editores
+# ======================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
